@@ -1,0 +1,236 @@
+.x-header{height:52px;background:#222 url(http://isux.oa.com/img/colorful-line.png) 0 100% repeat-x;}
+.x-header-inner{max-width:960px;margin:0 auto;}
+.x-header h1{float:left;padding-top:12px;margin: 0;}
+.x-logo{
+	background-image: url(http://isux.oa.com/img/logo-92x26.png);
+	background-repeat:no-repeat;
+	width: 92px;
+	height: 26px;
+	display: block;
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+.x-header a:hover{text-decoration:none;}
+.x-menu{float:left;margin:0 0 0 93px;}
+.x-menu ul {margin: 0;}
+.x-menu-item{
+	display:inline;
+	float:left;
+	font-size:16px;
+	list-style-type:none;
+	padding-right:12px;
+	color:#999;
+	float:left;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 40px 0 0;
+	padding:0;
+}
+.x-menu-link {
+	color:#999;
+	display:block;
+	font-family:Arial;
+	font-size:14px;
+	letter-spacing:1px;
+	line-height:48px;
+	margin:0;
+	padding:0;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+}
+.x-menu-link:hover{
+	color:#FFF;
+	text-shadow:1px 0 20px #FFF;
+}
+
+.x-menu-item .sf-sub-indicator {
+	border-color:#9f9f9f transparent transparent;
+	border-style:solid dashed dashed;
+	border-width:5px;
+	display:inline-block;
+	font-size:0;
+	height:0;
+	margin-left:4px;
+	overflow:hidden;
+	vertical-align:-4px;
+	width:0;
+}
+
+.x-sub-menu{
+	background-color:#222;
+	left:-999em;
+	left:auto;
+	margin:0;
+	margin-left:-32px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	top:49px;
+	width:140px;
+	z-index:9999;
+	visibility:hidden;
+}
+.x-sub-item{height:30px;line-height:30px;}
+.x-sub-menu a{
+	display:block;
+	padding-left:10px;
+	font:400 13px/30px Arial, tahoma,'\5B8B\4F53';/* STHeiti, */
+	color:#999;
+}
+.x-sub-menu a:hover{background:#000;color:#FFF;}
+.x-sub-menu .disabled,
+.x-sub-menu .disabled:hover{background:none;color:#666;}
+
+.x-menu-docs .x-sub-menu{
+	width:180px;
+	margin-left:-32px;
+}
+.x-menu-dc{width:153px;}
+.x-menu-dc .x-sub-menu{
+	width:163px;
+	margin:0;
+}
+.x-menu-tools .x-sub-menu{margin-left:-61px;width:196px;}
+.x-menu-tools{width:67px;}
+.x-menu-docs{width:114px;}
+.x-menu-dc,
+.x-menu-tools,
+.x-menu-docs{
+	text-align:left;
+}
+.x-header-inner{position:relative;}
+.x-header-right{
+	color:#999;
+	position:absolute;
+	top:0;
+	right:0;
+	padding-right:10px;
+	line-height:50px;
+}
+.x-header-right .x-menu-link{display:inline-block;}
+
+.x-weibo{margin-left:-13px;}
+.x-icon{
+	display:inline-block;
+	width:46px;
+	height:46px;
+	line-height:24px;
+	vertical-align:top;
+	background:url(http://isux.oa.com/img/header.png) -999px -999px no-repeat;
+	cursor:pointer;
+}
+.x-header .hidden-text{*display:none;}
+.x-icon-weibo{background-position:-46px 0;}
+.x-icon-tx-weibo{background-position:0 0;}
+.x-weibo:hover .x-icon-weibo{background-position:-46px -46px;}
+.x-tx-weibo:hover .x-icon-tx-weibo{background-position:0 -46px;}
+/* 最小化 */
+.x-header-mini{height:37px;}
+.x-header-mini h1{padding-top:8px;}
+.x-header-mini .x-logo{height:20px;width:72px;background-size:auto 20px;}
+.x-header-mini .x-menu-link{line-height:35px;}
+.x-header-mini .x-sub-menu{top:34px;}
+.x-header-mini .x-header-right{line-height:35px;}
+.x-header-mini .x-tx-weibo,
+.x-header-mini .x-icon,
+.x-header-mini .x-menu-folder{margin-top:-5px;}
+
+
+
+body {
+	font-family: helvetica,'微软雅黑';
+}
+
+
+.bg-warning {
+	padding: 25px;
+	text-align: center;
+}
+.bg-warning .main {
+	font-size: 24px;
+}
+
+.user-info {
+	text-align: right;
+	font-size: 12px;
+}
+.user-info .item {
+	margin-left: 5px;
+}
+.user-info .user-avatar {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+
+
+/* master */
+.sola-admin-content {
+	padding: 40px 0 0 0;
+}
+
+
+.sola-data-table .avatar-img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 3px;
+	margin-right: 5px;
+}
+.sola-data-table .avatar-img img {
+	height: 30px;
+}
+.sola-data-table .avatar-txt {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.sola-data-table .txt {
+	line-height: 30px;
+}
+
+
+
+.user-show-list .item {
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.user-show-list .pic {
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+}
+.user-show-list .pic .pic-box {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 80px;
+	height: 80px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.modal-title .avatar-img {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	overflow: hidden;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 3px;
+	margin-right: 5px;
+	line-height: 0;
+}
+.modal-title .avatar-img img {
+	height: 24px;
+}

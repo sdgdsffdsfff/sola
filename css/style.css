@@ -1,0 +1,378 @@
+@charset "UTF-8";
+
+.x-header{height:52px;background:#222 url(http://isux.oa.com/img/colorful-line.png) 0 100% repeat-x;}
+.x-header-inner{max-width:960px;margin:0 auto;}
+.x-header h1{float:left;padding-top:12px;margin: 0;}
+.x-logo{
+	background-image: url(http://isux.oa.com/img/logo-92x26.png);
+	background-repeat:no-repeat;
+	width: 92px;
+	height: 26px;
+	display: block;
+	text-indent: -999em;
+	overflow: hidden;
+}
+
+.x-header a:hover{text-decoration:none;}
+.x-menu{float:left;margin:0 0 0 93px;}
+.x-menu ul {margin: 0;}
+.x-menu-item{
+	display:inline;
+	float:left;
+	font-size:16px;
+	list-style-type:none;
+	padding-right:12px;
+	color:#999;
+	float:left;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin:0 40px 0 0;
+	padding:0;
+}
+.x-menu-link {
+	color:#999;
+	display:block;
+	font-family:Arial;
+	font-size:14px;
+	letter-spacing:1px;
+	line-height:48px;
+	margin:0;
+	padding:0;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+}
+.x-menu-link:hover{
+	color:#FFF;
+	text-shadow:1px 0 20px #FFF;
+}
+
+.x-menu-item .sf-sub-indicator {
+	border-color:#9f9f9f transparent transparent;
+	border-style:solid dashed dashed;
+	border-width:5px;
+	display:inline-block;
+	font-size:0;
+	height:0;
+	margin-left:4px;
+	overflow:hidden;
+	vertical-align:-4px;
+	width:0;
+}
+
+.x-sub-menu{
+	background-color:#222;
+	left:-999em;
+	left:auto;
+	margin:0;
+	margin-left:-32px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	top:49px;
+	width:140px;
+	z-index:9999;
+	visibility:hidden;
+}
+.x-sub-item{height:30px;line-height:30px;}
+.x-sub-menu a{
+	display:block;
+	padding-left:10px;
+	font:400 13px/30px Arial, tahoma,'\5B8B\4F53';/* STHeiti, */
+	color:#999;
+}
+.x-sub-menu a:hover{background:#000;color:#FFF;}
+.x-sub-menu .disabled,
+.x-sub-menu .disabled:hover{background:none;color:#666;}
+
+.x-menu-docs .x-sub-menu{
+	width:180px;
+	margin-left:-32px;
+}
+.x-menu-dc{width:153px;}
+.x-menu-dc .x-sub-menu{
+	width:163px;
+	margin:0;
+}
+.x-menu-tools .x-sub-menu{margin-left:-61px;width:196px;}
+.x-menu-tools{width:67px;}
+.x-menu-docs{width:114px;}
+.x-menu-dc,
+.x-menu-tools,
+.x-menu-docs{
+	text-align:left;
+}
+.x-header-inner{position:relative;}
+.x-header-right{
+	color:#999;
+	position:absolute;
+	top:0;
+	right:0;
+	padding-right:10px;
+	line-height:50px;
+}
+.x-header-right .x-menu-link{display:inline-block;}
+
+.x-weibo{margin-left:-13px;}
+.x-icon{
+	display:inline-block;
+	width:46px;
+	height:46px;
+	line-height:24px;
+	vertical-align:top;
+	background:url(http://isux.oa.com/img/header.png) -999px -999px no-repeat;
+	cursor:pointer;
+}
+.x-header .hidden-text{*display:none;}
+.x-icon-weibo{background-position:-46px 0;}
+.x-icon-tx-weibo{background-position:0 0;}
+.x-weibo:hover .x-icon-weibo{background-position:-46px -46px;}
+.x-tx-weibo:hover .x-icon-tx-weibo{background-position:0 -46px;}
+/* 最小化 */
+.x-header-mini{height:37px;}
+.x-header-mini h1{padding-top:8px;}
+.x-header-mini .x-logo{height:20px;width:72px;background-size:auto 20px;}
+.x-header-mini .x-menu-link{line-height:35px;}
+.x-header-mini .x-sub-menu{top:34px;}
+.x-header-mini .x-header-right{line-height:35px;}
+.x-header-mini .x-tx-weibo,
+.x-header-mini .x-icon,
+.x-header-mini .x-menu-folder{margin-top:-5px;}
+
+
+
+body {
+	font-family: helvetica,'微软雅黑'
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: helvetica,'微软雅黑'
+}
+
+.circle {border: 5px solid rgba(255,255,255,0.9);color:#666;  border-radius:150px; height:300px; width:300px;  text-align: center; padding: 50px 0; background-color: #fff;}
+.circle .p {font-size: 24px; color:#000;}
+
+@media (min-width: 1200px) {
+	.container {
+		width: 100%;
+	}
+}
+.container {
+	margin-top: 30px;
+	/*max-width: 100%;*/
+	padding: 0 3%;
+}
+
+.none {
+	display: none;
+}
+
+.user-info {
+	text-align: right;
+	font-size: 12px;
+}
+.user-info .item {
+	margin-left: 5px;
+}
+.user-info .user-avatar {
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+}
+
+
+.sola-page {
+	margin-top: 5px;
+}
+.sola-page .sola-progress .progress {
+	margin-bottom: 0;
+}
+.sola-page .actions-bar {
+	margin-bottom: 30px;
+}
+.sola-page .actions-bar .actions-main {
+	float: left;
+}
+.sola-page .actions-bar .actions-sub {
+	float: right;
+}
+.sola-page .actions-bar .btn-start,
+.sola-page .actions-bar .btn-cancel {
+	display: none;
+}
+.sola-page .upload-box {
+	margin-bottom: 10px;
+}
+.sola-page .upload-box .table {
+	border: 0;
+	margin-bottom: 0;
+}
+/*.sola-page .actions-bar .fileupload-progress {
+	float: left;
+}*/
+
+
+
+.upload-box {
+	background: #F9F9F9;
+
+}
+.upload-box .table {
+	margin-bottom: 20;
+	border-bottom: 1px solid #DDD;
+}
+.table-striped>tbody>tr:nth-child(odd)>td, .table-striped>tbody>tr:nth-child(odd)>th {
+background-color: transparent;
+}
+
+
+.show-all-btn {
+	line-height: 32px;
+	margin-right: 20px;
+}
+
+.show-pic-box {
+	margin-left: -5px;
+}
+
+.show-list {
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+	/*display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-box-align: start;
+    -moz-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;*/
+}
+.show-list li {
+	display: inline-block;
+	*zoom: 1;
+	*display: inline;
+	vertical-align: top;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	font-size: 12px;
+
+}
+.show-list .file-item {
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	position: relative;
+}
+.show-list .file-item a {
+	display: table-cell;
+    vertical-align: middle;
+    text-align:center;
+    *display: block;
+    *font-size: 131px;
+    *font-family:Arial;
+    width: 150px;
+	height: 150px;
+}
+
+.show-list .file-item a {background-size: cover; background-repeat: no-repeat; background-position: center center;}
+
+.show-list .file-item a:hover img {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.show-list .file-show {
+	background-color: #EFEFEF;
+}
+.show-list .file-show:after {
+	position: absolute;
+	font-size: 26px;
+	width: 100%;
+	top: 35%;
+	left: 0;
+}
+.show-list .file-show-swf:after {
+	content: 'swf';
+}
+.show-list .file-show-mp3:after {
+	content: 'mp3';
+}
+.show-list .file-show-pdf:after {
+	content: 'pdf';
+}
+.show-list .file-show-flv:after {
+	content: 'flv';
+}
+
+
+.show-list .action {
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	background-color: rgba(0,0,0,.8);
+	color: #FFF;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	-o-transform: translateZ(0);
+	transform: translateZ(0);
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	transition: all .2s ease;
+}
+.show-list .action .meta-size {
+	display: inline-block;
+	padding-left: 10px;
+}
+.show-list .action .btn {
+	margin-top: 5px;
+	float: right;
+	margin-right: 10px;
+}
+
+
+.tips-bar {
+	padding: 10px 20px;
+	color:#666;
+	text-align: center;
+}
+
+
+/* zeroclipboard */
+.zeroclipboard-is-hover {
+	background-color: #3071a9;
+}
