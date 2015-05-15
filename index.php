@@ -1,6 +1,6 @@
 <?php include('header.php'); ?>
 
-<p class="bg-info tips-bar">支持文件格式：gif | jpg | jpeg | png | bmp | swf | pdf | mp3 | wma | ogg | wav | mid | mp4 | avi | mov | wmv | 3gp | flv | rmvb | webm | mkv</p>
+<p class="bg-info tips-bar">支持文件格式：gif | jpg | jpeg | png | bmp | swf | pdf | mp3 | wma | ogg | wav | mid | mp4 | m4a | avi | mov | wmv | 3gp | flv | rmvb | webm | mkv</p>
 
 <div class="container sola-page">
 

@@ -321,16 +321,19 @@ background-color: transparent;
 	left: 0;
 }
 .show-list .file-show-swf:after {
-	content: 'swf';
+	content: '.swf';
 }
 .show-list .file-show-mp3:after {
-	content: 'mp3';
+	content: '.mp3';
 }
 .show-list .file-show-pdf:after {
-	content: 'pdf';
+	content: '.pdf';
 }
 .show-list .file-show-flv:after {
-	content: 'flv';
+	content: '.flv';
+}
+.show-list .file-show-m4a:after {
+	content: '.m4a';
 }
 
 

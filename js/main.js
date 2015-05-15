@@ -66,7 +66,7 @@ $(function () {
     $('#fileupload').fileupload({
         url: 'upload.php',
         maxFileSize: 10000000, // 10 MB
-        acceptFileTypes: /(\.|\/)(gif|jpe?g|png|bmp|swf|pdf|mp3|wma|ogg|wav|mid|mp4|avi|mov|wmv|3gp|flv|rmvb|webm|mkv)$/i
+        acceptFileTypes: /(\.|\/)(gif|jpe?g|png|bmp|swf|pdf|mp3|wma|ogg|wav|mid|m4a|mp4|avi|mov|wmv|3gp|flv|rmvb|webm|mkv)$/i
     })
     .bind('fileuploadadd', function (e, data) {
         $('.js-btn').show();

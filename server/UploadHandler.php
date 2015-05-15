@@ -77,7 +77,7 @@ class UploadHandler
             'inline_file_types' => '/\.(gif|jpe?g|png)$/i',
             // Defines which files (based on their names) are accepted for upload:
             // 'accept_file_types' => '/.+$/i',
-            'accept_file_types' => '/\.(gif|jpe?g|png|bmp|swf|pdf|mp3|wma|ogg|wav|mid|mp4|avi|mov|wmv|3gp|flv|rmvb|webm|mkv)$/i',
+            'accept_file_types' => '/\.(gif|jpe?g|png|bmp|swf|pdf|mp3|wma|ogg|wav|mid|mp4|m4a|avi|mov|wmv|3gp|flv|rmvb|webm|mkv)$/i',
             // The php.ini settings upload_max_filesize and post_max_size
             // take precedence over the following max_file_size setting:
             'max_file_size' => null,
